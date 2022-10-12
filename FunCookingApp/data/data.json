@@ -1,0 +1,586 @@
+{
+  "receipts": [
+    {
+      "idR": 1,
+      "name": "Cecina",
+      "img": "https://cdn.discordapp.com/attachments/999787599784837192/999787642789052527/cecina.jpeg",
+      "tiempo": "60 min",
+      "dificutad": "Media",
+      "utensilios": "Cuchillo, Gril con brasas, Recipientes"
+    },
+    {
+      "idR": 2,
+      "name": "Repe Blanco",
+      "img": "https://cdn.discordapp.com/attachments/999787599784837192/1000089656622334162/repe.jpeg",
+      "tiempo": "30 min",
+      "dificutad": "Facil",
+      "utensilios": "Cuchillo, Ollas, Recipientes"
+    },
+    {
+      "idR": 3,
+      "name": "Arverja con Guineo",
+      "img": "https://cdn.discordapp.com/attachments/999787599784837192/1000089656400031774/arveja.jpeg",
+      "tiempo": "30 min",
+      "dificutad": "Facil",
+      "utensilios": "Cuchillo, Ollas, Recipientes"
+    },
+    {
+      "idR": 4,
+      "name": "Cuy",
+      "img": "https://cdn.discordapp.com/attachments/999787599784837192/1000089656064475236/cuy.jpeg",
+      "tiempo": "45 min",
+      "dificutad": "Media",
+      "utensilios": "Cuchillo, Ollas, Recipientes"
+    },
+    {
+      "idR": 5,
+      "name": "Fritada",
+      "img": "https://cdn.discordapp.com/attachments/999787599784837192/1000089655783464990/fritada.jpeg",
+      "tiempo": "90 min",
+      "dificutad": "Media",
+      "utensilios": "Cuchillo, Gril con brasas, Recipientes"
+    }
+  ],
+
+  "products": [
+    {
+      "idR": 1,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540147397042316/lomoCerdo.jpg",
+      "name": "Lomo de cerdo",
+      "kcal": "242 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 2,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540086416052314/cuy.jpg",
+      "name": "Cuy pelado",
+      "kcal": "96 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 3,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540203940462723/pastaAjo.jpg",
+      "name": "Pasta de Ajo",
+      "kcal": "6 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 4,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540232008732832/pimientaN.jpg",
+      "name": "Pimienta",
+      "kcal": "8 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 5,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540046733750292/comino.jpg",
+      "name": "Comino",
+      "kcal": "8 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 6,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540202623443064/sal.jpg",
+      "name": "Sal",
+      "kcal": "0 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 7,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539955096596591/achioteA.jpg",
+      "name": "Aceite de Achiote",
+      "kcal": "65 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 8,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539953116889118/ajo.jpg",
+      "name": "Dientes de Ajo",
+      "kcal": "42 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 9,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539954849136670/achiote.jpg",
+      "name": "Achiote",
+      "kcal": "8 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 10,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540145547350167/papa.jpg",
+      "name": "Papa",
+      "kcal": "80 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 11,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539954572308520/aceite.jpg",
+      "name": "Aceite",
+      "kcal": "120 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 12,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540045232197733/cebolleta.jpg",
+      "name": "Cebolleta",
+      "kcal": "42 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 13,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540044988919878/cebollaM.jpg",
+      "name": "Cebolla Morada",
+      "kcal": "42 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 14,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540148466593852/oregano.jpg",
+      "name": "Oregano",
+      "kcal": "6 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 15,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540046347870410/cilantro.jpg",
+      "name": "Cilantro",
+      "kcal": "1 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 16,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540045706133705/cerdo.jpg",
+      "name": "Carne de Cerdo",
+      "kcal": "271 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 17,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540044284276756/costillaC.jpg",
+      "name": "Costilla de Cerdo",
+      "kcal": "296 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 18,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540044775014550/cebollaB.jpg",
+      "name": "Cebolla blanca",
+      "kcal": "42 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 19,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540046121373716/chalote.jpg",
+      "name": "Chalote",
+      "kcal": "72 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 20,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539952424829009/agua.jpg",
+      "name": "Agua",
+      "kcal": "0 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 21,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540145824178317/jugoN.jpg",
+      "name": "Jugo de Naranja",
+      "kcal": "45 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 22,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540086642540625/gallina.jpg",
+      "name": "Pollo",
+      "kcal": "396 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 23,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539954077384866/biela.jpg",
+      "name": "Cerveza",
+      "kcal": "43 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 24,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540147699040296/maiz.jpg",
+      "name": "Maiz",
+      "kcal": "95 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 25,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540148139425802/manteca.jpg",
+      "name": "Manteca de cerdo",
+      "kcal": "902 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 26,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540088093769778/huevos.jpg",
+      "name": "Huevos",
+      "kcal": "150 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 27,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539952919752806/aji.jpg",
+      "name": "Aji",
+      "kcal": "40 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 28,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540086860652624/guisantes.jpg",
+      "name": "Guisantes",
+      "kcal": "81 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 29,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540087737258065/hojaP.jpg",
+      "name": "Hoja de Platano",
+      "kcal": "0 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 30,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540044523343962/carneChi.jpg",
+      "name": "Carne de Chivo",
+      "kcal": "127 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 31,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540146541400154/lecheCoco.jpg",
+      "name": "Leche de Coco",
+      "kcal": "230 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 32,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540202921234502/tomate.jpg",
+      "name": "Tomate",
+      "kcal": "18 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 33,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540203244200037/papaChola.jpg",
+      "name": "Papa pequena",
+      "kcal": "108 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 34,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539953540518010/arroz.jpg",
+      "name": "Arroz",
+      "kcal": "130 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 35,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540087494000702/higadoC.jpg",
+      "name": "Higado de Cerdo",
+      "kcal": "165 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 36,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540088672591963/intestinoC.jpg",
+      "name": "Intestino de Cerdo",
+      "kcal": "198 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 37,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540146822422650/lenguaC.jpg",
+      "name": "Lengua de Cerdo",
+      "kcal": "157 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 38,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540231723524168/perejil.png",
+      "name": "Perejil",
+      "kcal": "36 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 39,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540087074574486/harinaM.jpg",
+      "name": "Harina de Maiz",
+      "kcal": "370 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 40,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540202308878406/queso.jpg",
+      "name": "Queso",
+      "kcal": "402 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 41,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540232558190772/platanoV.jpg",
+      "name": "Platano Verde",
+      "kcal": "122 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 42,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540202057203825/quesillo.jpg",
+      "name": "Quesillo",
+      "kcal": "146 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 43,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540146075840532/leche.jpg",
+      "name": "Leche",
+      "kcal": "42 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 44,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540087280074805/hierbas.jpg",
+      "name": "Hierbas para horchata",
+      "kcal": "54 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 45,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540147103445073/limon.jpg",
+      "name": "Limon",
+      "kcal": "29 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 46,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539953746018314/azucar.jpg",
+      "name": "Azucar",
+      "kcal": "387 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 47,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540086168600687/jugoCana.jpg",
+      "name": "Jugo de cana",
+      "kcal": "269 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 48,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996539954299687143/canela.jpg",
+      "name": "Canela",
+      "kcal": "247 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 49,
+      "img": "https://cdn.discordapp.com/attachments/996539749496000544/996540203604902018/pasas.jpg",
+      "name": "Pasas",
+      "kcal": "299 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    }
+  ]
+}
