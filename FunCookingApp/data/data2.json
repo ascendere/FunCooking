@@ -1,0 +1,1012 @@
+{
+  "comidas":[
+    {
+      "idR": 1,
+      "name": "Panadería",
+      "img": "https://www.colbake.com/wp-content/uploads/2019/01/tradicion-maquinaria-panaderia.jpg"
+    },
+    {
+      "idR": 2,
+      "name": "Repostería",
+      "img": "https://i0.wp.com/quedia.es/wp-content/uploads/2021/05/Dia-Internacional-de-la-Reposteria-19-de-Mayo.jpg?resize=1024%2C682&ssl=1"
+    },
+    {
+      "idR": 3,
+      "name": "Cocina fría",
+      "img": "https://images.hola.com/imagenes/cocina/tecnicas-de-cocina/20210729193721/cocina-fria-ahumados-salazones-marinados/0-979-711/cocina-fria-age-t.jpg"
+    },
+    {
+      "idR": 4,
+      "name": "Cocina Caliente",
+      "img": "https://www.heatwave.com.mx/wp-content/uploads/2022/04/2022-ABR-HEATWAVE-BLOG-INTERIOR-02.jpg"
+    }
+  ],
+  "receipts": [
+    {
+      "idR": 1,
+      "name": "Muchines de Yuca",
+      "img": "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/4bbef6e351f7b81c531db4c3f3999a4d.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Cocina caliente",
+      "ingredientes": ["Yuca", "Azúcar", "Huevo", "Sal", "Queso fresco", "Cebolla paiteña", "Aceite vegetal"],
+      "procedimiento": [
+        "1. Cocina la yuca hasta que esté suave",
+        "2. Hazla puré, agrega el azúcar y deja enfriar",
+        "3. Mientras tanto, pica la cebolla en cubitos bien pequeños y raya el queso",
+        "4. Añade al puré de yuca los huevos, forma porciones de la masa",
+        "5. Ábrelas como tortillas, colócales el relleno, ciérralas y dales forma cilíndrica",
+        "6. En aceite bien caliente, coloca cada una de los Muchines y deja freír hasta que tomen un color dorado",
+        "7. Quítales el exceso de aceite y sirve"
+      ],
+      "datosExtra": "El relleno de la yuca puede variar según los gustos de cada persona.\nEn algunos lugares a la masa le agregan refrito, pero eso va más con la versatilidad de la receta."
+    },    
+
+    {
+      "idR": 2,
+      "name": "Café tradicional",
+      "img": "https://www.rentokil-initial.cl/blog/wp-content/uploads/2020/05/beneficios-del-cafe-organico.jpg",
+      "tiempo": "30 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Bebidas calientes",
+      "ingredientes": ["Agua", "Café", "Azúcar", "Acompañamiento", "Pan", "Queso", "Azúcar"],
+      "procedimiento": [
+        "1. En una olla, coloque el agua y lleve a fuego alto hasta que comience a hervir",
+        "2. Luego coloque el azúcar y deje unos 5 minutos que hierva con el agua",
+        "3. En una chuspa de tela, coloque el café y procesa a verter el agua caliente sobre el café",
+        "4. Deje filtrar el agua poco a poco",
+        "5. Coloque en una taza y sirva acompañado del pan y el queso."
+      ],
+      "datosExtra": "El dulce del café dependerá del gusto de la persona.\nEl tiempo de hervor del agua dependerá de la zona donde se encuentre.\nSe lo puede acompañar con más comidas.\nEl sabor fuerte del café dependerá del grano que se use y la cantidad de este que se emplee."
+    },    
+    {
+      "idR": 3,
+      "name": "Colada de zapallo",
+      "img": "https://zapallo.weebly.com/uploads/4/2/5/1/42511727/2716103.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Bebidas frías y calientes",
+      "ingredientes": ["Zapallo", "Leche", "Panela", "Canela", "Especias dulces", "Azúcar", "Vainilla","Caña"],
+      "procedimiento": [
+        "1. Pelar y picar en cubos el zapallo, luego retirar y cocinarlo hasta que esté suave junto con la mitad de las especias dulces y la canela.",
+        "2. Luego cocinar la leche con el resto de las especias dulces a fuego bajo, hasta que la leche obtenga el sabor de estas y la panela esté derretida.",
+        "3. Cernir la leche y el zapallo y reservar.",
+        "4. Licuar el zapallo junto con la leche y la esencia de vainilla hasta que no queden grumos.",
+        "5. Servir en vasos. Si se desea, se puede calentar el batido o tomarlo frío."
+      ],
+      "datosExtra": "El zapallo será más o menos dulce dependiendo de la época del año o su madurez."
+    },    
+    {
+      "idR": 4,
+      "name": "Menestra de frejol",
+      "img": "https://www.recetasnestle.com.ec/sites/default/files/srh_recipes/46c3a5f2fef03f048e1ab9d250df9855.jpg",
+      "tiempo": "40 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Cocina caliente",
+      "ingredientes": ["Frejol", "Cebolla paiteña", "Aceite vegetal", "Ajo", "Plátano verde", "Agua", "Cilantro"],
+      "procedimiento": [
+        "1. En una olla hacer un refrito con el aceite caliente, la cebolla y el ajo.",
+        "2. Añadir el frejol y dejar cocinar hasta que esté suave.",
+        "3. Luego, con la misma agua del frejol, licuar el plátano cocinado y añadirlo a la menestra.",
+        "4. Dejar espesar hasta tener la consistencia requerida.",
+        "5. Colocar el cilantro, corregir sazón y servir acompañado con lo que más te guste."
+      ],
+      "datosExtra": "La cantidad de agua dependerá del tipo de frejol que se use y si es fresco o seco.\nEn algunos casos, se suele cocinar a presión, dependiendo del tiempo disponible."
+    },    
+    {
+      "idR": 5,
+      "name": "Tamal lojano",
+      "img": "https://tamallojano.com/wp-content/uploads/2015/04/tamal-menu.jpg",
+      "tiempo": "2 horas",
+      "dificultad": "Media alta",
+      "clasificacion": "Cocina regional caliente",
+      "ingredientes": ["Maíz amarillo", "Manteca de cerdo", "Pechuga de pollo", "Cebolla blanca", "Ajo", "Aceite de achote", "Huevos", "Ají", "Arvejas", "Hojas de achira", "Sal", "Pimienta", "Comino"],
+      "procedimiento": [
+        "1. Remojar el maíz en agua fría durante 2 - 3 días (hasta que ablande).",
+        "2. Molerlo finamente y reservarlo.",
+        "3. Colocarlo el maíz en una fuente grande y agregar la manteca, cebolla y mezclar.",
+        "4. Preparar el pollo con todos los aliños deseados y salpimentar.",
+        "5. Dejar cocinar hasta que la carne esté suave y reservar.",
+        "6. Desmenuzar la carne y mezclarla con la alverja (demás rellenos son opcionales).",
+        "7. Añadir un poco del caldo de pollo en la masa, salpimentar a gusto y amasar todo.",
+        "8. Incorporar los huevos previamente batidos y continuar amasando.",
+        "9. Preparar un refrito con lo que quede de cebolla, sofreír ahí mismo el pollo, las arvejas y el relleno estará listo.",
+        "10. Dar forma a los tamales dentro de la hoja de achira y cerrarla, dándoles forma rectangular.",
+        "11. En una olla, colocar agua fría y poco a poco ir colocando los tamales, evitando que se aplasten mucho por el peso, y dejar cocinar alrededor de 1:30 - 2 horas o hasta que la masa ya no esté cruda.",
+        "12. Dejar enfriar un poco los tamales y estarán listos para servir."
+      ],
+      "datosExtra": "N/A"
+    },    
+    {
+      "idR": 6,
+      "name": "Arroz con leche",
+      "img": "https://images.aws.nestle.recipes/original/92cd34cb06980d6b4096cb73e5cab8fa_arroz-con-leche.jpeg",
+      "tiempo": "40 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Postres",
+      "ingredientes": ["Leche", "Arroz", "Azúcar", "Agua", "Especias dulces", "Leche condensada", "Esencia de vainilla"],
+      "procedimiento": [
+        "1. En una olla, calentar el agua junto con las especias dulces y dejar hervir durante unos 5 a 8 minutos.",
+        "2. Colocar el arroz lavado y dejar cocinar hasta que el arroz esté bien suave, sin dejar que el agua se consuma y deje el arroz seco.",
+        "3. Seguido, colocar un poco del arroz cocinado con toda la leche y la esencia de vainilla, mezclar bien y verter de nuevo en la olla y dejar cocinar unos 4 minutos.",
+        "4. Colocar la leche condensada y el azúcar hasta la cantidad de dulzor que se desee.",
+        "5. Apartar la olla del fuego y dejar enfriar unos minutos.",
+        "6. Verter la preparación en vasos o copas, acompañar con galletas y servir."
+      ],
+      "datosExtra": "Puede espolvorear canela en polvo en la preparación para mejor sabor y presentación.\nSe le puede adicionar pasas u otros ingredientes dulces a su elección.\nEl tipo de leche a usar puede ser deslactosada, semi descremada, etc."
+    },    
+    {
+      "idR": 7,
+      "name": "Mousse de naranja",
+      "img": "https://www.recetasnestle.com.mx/sites/default/files/srh_recipes/650d4cb3072dc8c06e1b6988089f9d37.png",
+      "tiempo": "15 min",
+      "dificultad": "Fácil",
+      "clasificacion": "Repostería",
+      "ingredientes": ["Queso crema", "Leche evaporada", "Leche condensada", "Azúcar", "Zumo de naranja", "Gelatina sin sabor"],
+      "procedimiento": [
+        "1. Hidratar la gelatina sin sabor en un vaso con un poco de agua.",
+        "2. En una licuadora colocar el queso crema, los 2 tipos de leche, el azúcar, el zumo de naranja y un poco de rayadura de la cáscara de la naranja, y licuar hasta que todo esté incorporado.",
+        "3. Activar previamente la gelatina en baño maría o unos 15 segundos en el microondas.",
+        "4. Verter la gelatina activada en la licuadora mientras licua todos los demás ingredientes.",
+        "5. Luego, en pequeños envases colocar la mezcla o en moldes largos y dejar en refrigeración alrededor de 4 a 5 horas o hasta que esté firme.",
+        "6. Servir el postre."
+      ],
+      "datosExtra": "Tener cuidado con el manejo de la naranja y las leches, puede provocar que se corten.\nLa rayadura de naranja debe evitar contener la parte blanca de la fruta, esto podría amargar la preparación.\nLa presentación de cada preparación dependerá de la creatividad de las personas y de los elementos que les quiera colocar."
+    },    
+    {
+      "idR": 8,
+      "name": "Camarones rellenos con caña",
+      "img": "https://recetasdecamarones.com/wp-content/uploads/2018/08/34.-camarones-rellenos-1-bien-300x225.jpg",
+      "tiempo": "60 min",
+      "dificultad": "Media",
+      "clasificacion": "Cocina caliente",
+      "ingredientes": ["Camarones", "Sal", "Pimienta", "Ajo", "Azúcar", "Salsa de ostras", "Huevo", "Manteca de cerdo", "Caña"],
+      "procedimiento": [
+        "1. Pelar y limpiar los camarones.",
+        "2. Colocar los camarones en una procesadora de alimentos junto con la sal, pimienta, ajo y manteca de cerdo.",
+        "3. Procesar hasta obtener una pasta suave y fácil de manipular.",
+        "4. Mezclar la pasta junto con el huevo y dejar reposar 30 minutos en refrigeración.",
+        "5. Mientras tanto, cortar la caña en bastones de un grosor de 4 cm y 6 cm de largo.",
+        "6. Luego, porcionar la masa y envolverla en los bastones de caña.",
+        "7. Apretar la masa sobre la caña para que no se despegue.",
+        "8. Cocinarlos en aceite caliente o, si se prefiere, en una parrilla.",
+        "9. Servir los bastones de camarón calientes, acompañados con una salsa de su gusto."
+      ],
+      "datosExtra": "Tener cuidado de que los camarones no estén en buen estado, pueden provocar intoxicaciones.\nLa caña que se use puede darles un sabor más o menos dulce.\nLa masa no debe ser muy líquida."
+    },
+    {
+      "idR": 9,
+      "name": "Risotto de champiñones",
+      "img": "https://www.gourmet.cl/wp-content/uploads/2022/01/risotto_video-retocada_DSC05353.jpg",
+      "tiempo": "45 min",
+      "dificultad": "Media",
+      "clasificacion": "Cocina caliente",
+      "ingredientes": ["Fondo de pollo", "Arroz arbóreo", "Champiñones", "Cebolla", "Sal", "Mantequilla", "Queso parmesano"],
+      "procedimiento": [
+        "1. Derretir la mantequilla en un sartén.",
+        "2. Colocar la cebolla en la mantequilla y dejarla dorar.",
+        "3. Colocar el arroz en el sartén y cocinarlo hasta que tome un color más transparente.",
+        "4. Agregar el fondo de pollo poco a poco a la mezcla.",
+        "5. Asegurarse de que el arroz no se seque demasiado.",
+        "6. Después de unos minutos, agregar los champiñones cortados en cuadrados o rebanados, según el gusto.",
+        "7. Continuar cocinando el arroz durante unos 15 a 17 minutos, hasta que esté al dente.",
+        "8. Añadir un poco de mantequilla y mezclarla con todo el arroz.",
+        "9. Agregar el queso parmesano o el queso de tu preferencia y mezclarlo con el arroz.",
+        "10. Corregir el sazón.",
+        "11. El risotto estará listo para servir."
+      ],
+      "datosExtra": "El arroz no debe quedar ni muy seco ni muy húmedo, debe estar en el punto donde pueda conservar su forma.\nSe puede utilizar fondo de res o pescado en lugar de fondo de pollo."
+    }
+    
+  ],
+
+  "products": [
+    {
+      "idR": 1,
+      "img": "https://static.vecteezy.com/system/resources/previews/007/859/984/non_2x/raw-pork-loin-for-cooking-photo.jpg",
+      "name": "Lomo de cerdo",
+      "kcal": "242 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g",
+      "beneficios": "⦁ Aporta vitamina C, complejo B, calcio, potasio y magnesio.\n⦁ Gran contenido de fibra para el cuerpo.\n⦁ Contiene almidón, mismo que cuenta con pequeñas cantidades de gluten en su composición.\n⦁ Bajo contenido calórico y grasa.\n⦁ Aporta energía saludable al cuerpo.\n⦁ Ayuda a los trastornos digestivos.\n⦁ Aporta vitamina K y previene la osteoporosis."
+    },
+    {
+      "idR": 2,
+      "img": "https://www.cuyesperu.org/wp-content/uploads/cuyes-empacados-al-vacio-3.jpg",
+      "name": "Cuy pelado",
+      "kcal": "96 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 3,
+      "img": "https://i.ytimg.com/vi/S8b8QiW634s/maxresdefault.jpg",
+      "name": "Ajo",
+      "kcal": "6 KCAL",
+      "group": "Carnes, pescados y huevos",
+      "cientf": "Longisimus dorsi",
+      "lipi": "3,41 g",
+      "glu": "0 g",
+      "prot": "20,99 g"
+    },
+    {
+      "idR": 4,
+      "img": "https://recetasyuca.com/wp-content/uploads/2022/10/10-Beneficios-de-la-Yuca.jpg",
+      "name": "Yuca",
+      "kcal": "120 kcal",
+      "group": "tubérculo",
+      "cientf": "Manihot esculenta",
+      "lipi": "0,7 gr",
+      "glu": "26,9 gr",
+      "prot": "3,2",
+      "beneficios": "Aporta vitamina C, complejo B, calcio, potación y magnesio.\n⦁ Gran contenido de fibra para el cuerpo.\n⦁ Contiene almidón, mismo que cuenta con pequeñas cantidades de gluten en su composición.\n⦁ Bajo contenido calórico y grasa.\n⦁ Aporta energía saludable al cuerpo.\n⦁ Ayuda a los trastornos digestivos.\n⦁ Aporta vitamina K y previene la osteoporosis.",
+      "derivados": [
+        "Almidón",
+        "Chicha",
+        "Frituras",
+        "Harina"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi"
+      ],
+      "preparaciones": [
+        "⦁ Muchines",
+        "⦁ Encocado",
+        "⦁ Pastel",
+        "⦁ Encebollado",
+        "⦁ Caldo de bolas",
+        "⦁ Puré",
+        "⦁ Cocida",
+        "⦁ Asada",
+        "⦁ Pan de yuca",
+        "⦁ Arepa",
+        "⦁ Wafles",
+        "⦁ Buñuelos",
+        "⦁ Croquetas",
+        "⦁ Muffins",
+        "⦁ Carapulcra (guiso)",
+        "⦁ Ensalada",
+        "⦁ Chicha"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Panadería",
+        "Repostería",
+        "Cocina fría",
+        "Cocina regional"
+      ],
+      "combinacion": [
+        {
+          "tipo": "Bebidas alcohólicas",
+          "valor": 9.1
+        },
+        {
+          "tipo": "Carnes",
+          "valor": 24.2
+        },
+        {
+          "tipo": "Cereales",
+          "valor": 12.1
+        },
+        {
+          "tipo": "Frutas",
+          "valor": 20.2
+        },
+        {
+          "tipo": "Hierbas y especias",
+          "valor": 1.01
+        },
+        {
+          "tipo": "Huevos y lácteos",
+          "valor": 13.1
+        },
+        {
+          "tipo": "Bebidas calientes",
+          "valor": 3
+        },
+        {
+          "tipo": "Legumbres",
+          "valor": 3
+        },
+        {
+          "tipo": "Verduras y hortalizas",
+          "valor": 14.1
+        }
+      ]
+    },        
+    {
+      "idR": 5,
+      "img": "https://elmercurio.com.ec/wp-content/uploads/2023/03/cafe.webp",
+      "name": "Café",
+      "kcal": "2 KCAL",
+      "group": "Rubiaceae, Frutas y granos",
+      "cientf": "Coffea",
+      "lipi": "0,05 g",
+      "glu": "0,2 gr",
+      "prot": "0,1 g",
+      "beneficios": [
+        "Es rico en antioxidantes y previene el envejecimiento.",
+        "Reduce enfermedades cardiacas",
+        "Buen energizante natural y mejora la memoria",
+        "Ayuda a los pequeños dolores de cabeza, siempre y cuando se tome con leche y no más de 3 tazas al día",
+        "Ayuda en la pérdida de peso, siempre y cuando sea consumido con precaución y acompañado con una buena dieta alimenticia",
+        "Ayuda a prevenir el desarrollo de cáncer y enfermedades coronarias",
+        "El consumo moderado de café ayuda a prevenir el Alzheimer y Parkinson",
+        "El café natural es bueno para detener el sangrado por cortaduras"
+      ],
+      "derivados": [
+        "Cerveza",
+        "Almíbar",
+        "Grano",
+        "Café molido",
+        "Licor",
+        "Extracto de cascara"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi",
+        "Tiendas en tu barrio"
+      ],
+      "preparaciones": [
+        "⦁ Panacotas",
+        "⦁ Galletas",
+        "⦁ Pasteles",
+        "⦁ Batidos",
+        "⦁ Muffins",
+        "⦁ Mousse",
+        "⦁ Café cremoso",
+        "⦁ Pumpkin spice latte",
+        "⦁ Mousse de café",
+        "⦁ Salsas",
+        "⦁ Postres veganos",
+        "⦁ Helados de café",
+        "⦁ Cocteles con licores de café",
+        "⦁ Brioche de café",
+        "⦁ Cupcakes",
+        "⦁ Bebidas calientes y frías",
+        "⦁ Vinos macerados con café",
+        "⦁ Granizados"
+      ],
+      "clasificacion": [
+        "Bebidas alcohólicas y no alcohólicas",
+        "Panadería",
+        "Repostería",
+        "Chocolatería",
+        "Heladería",
+        "Cocina fría"
+      ],
+      "combinacion": [
+        {
+          "tipo": "Bebidas alcohólicas",
+          "valor": 11.3
+        },
+        {
+          "tipo": "Carnes",
+          "valor": 11.3
+        },
+        {
+          "tipo": "Cereales",
+          "valor": 4.7
+        },
+        {
+          "tipo": "Frutas",
+          "valor": 15.5
+        },
+        {
+          "tipo": "Frutos secos y semillas",
+          "valor": 5.2
+        },
+        {
+          "tipo": "Hierbas y especias",
+          "valor": 4.4
+        },
+        {
+          "tipo": "Huevos y lácteos",
+          "valor": 18.2
+        },
+        {
+          "tipo": "Bebidas calientes",
+          "valor": 10.3
+        },
+        {
+          "tipo": "Legumbres",
+          "valor": 3.8
+        },
+        {
+          "tipo": "Verduras y hortalizas",
+          "valor": 7.5
+        },
+        {
+          "tipo": "Pescados y mariscos",
+          "valor": 7.8
+        }
+      ]
+    },
+
+    {
+      "idR": 7,
+      "img": "https://i0.wp.com/organicos.mamey.org/wp-content/uploads/2016/06/frijoles-e1602706565329-scaled.jpg?fit=600%2C600&ssl=1",
+      "name": "Frejol",
+      "kcal": "347 gr",
+      "group": "Leguminosas",
+      "cientf": "Phaseolus vulgaris",
+      "lipi": "63 gr",
+      "glu": "1,2 gr",
+      "prot": "21 gr",
+      "beneficios": [
+        "Por su alto contenido de fibra soluble, ayuda a reducir los problemas cardiacos y enfermedades vinculados con estos.",
+        "Por su alto contenido en antioxidantes y fitoquímicos, ayudan a prevenir enfermedades cancerígenas.",
+        "Por su bajo índice glucémico, es un alimento ideal para aquellas personas que sufren o tienen tendencia a desarrollar diabetes.",
+        "A diferencia de otros granos como la cebada, trigo, centeno, etc., este alimento no contiene gluten y es ideal para personas celiacas.",
+        "Aporta cantidades altas y saludables al cuerpo, por lo que ayuda al sistema digestivo y su correcto funcionamiento.",
+        "Es un excelente alimento que ayuda a recuperar y evitar desgarres de los músculos tras largas horas de uso de estos.",
+        "Al contener biotina, ayuda a fortalecer el cabello y evitar su caída."
+      ],
+      "derivados": [
+        "Harina",
+        "Sémola",
+        "Mermeladas",
+        "Producto neto",
+        "Pastas",
+        "Frejol rojo",
+        "Frejol negro",
+        "Frejol chileno"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi"
+      ],
+      "preparaciones": [
+        "Menestras",
+        "Galletas",
+        "Pasteles",
+        "Panes",
+        "Tostadas",
+        "Mermeladas",
+        "Empanadas",
+        "Hummus",
+        "Sopas",
+        "Pastas",
+        "Tortillas",
+        "Carne falsa",
+        "Guisos",
+        "Ceviches",
+        "Horneados"
+      ],
+      "clasificacion": [
+        "Cocina fría",
+        "Cocina caliente",
+        "Panadería",
+        "Repostería",
+        "Bebidas",
+        "Bebidas frías",
+        "Cocina regional"
+      ],
+      "combinacion": [
+        { "tipo": "Aceites y grasas", "valor": 0.3 },
+        { "tipo": "Aliños y salsas", "valor": 7 },
+        { "tipo": "Bebidas alcohólicas", "valor": 7 },
+        { "tipo": "Carnes", "valor": 22 },
+        { "tipo": "Cereales", "valor": 5.4 },
+        { "tipo": "Frutas", "valor": 20 },
+        { "tipo": "Frutos secos y semillas", "valor": 5.5 },
+        { "tipo": "Hierbas y especias", "valor": 7 },
+        { "tipo": "Huevos y lácteos", "valor": 8.2 },
+        { "tipo": "Bebidas calientes", "valor": 2 },
+        { "tipo": "Legumbres", "valor": 15.5 }
+      ]
+    },
+
+    {
+      "idR": 8,
+      "img": "https://humanidades.com/wp-content/uploads/2018/10/maiz-2-1-e1581908276964.jpg",
+      "name": "Maíz amarillo",
+      "kcal": "354 kcal",
+      "group": "Cereales",
+      "cientf": "Zea mays",
+      "lipi": "4,47 gr",
+      "glu": "2,1 gr",
+      "prot": "9,42 gr",
+      "beneficios": [
+        "El maíz al contener un tipo de almidón que es un poco más difícil de absorber en nuestro cuerpo nos brinda energía durante tiempos más largos.",
+        "Contiene un tipo de fibra resistente, misma que es un alimento idóneo para las bacterias del estómago y las fortalece, provocando que los alimentos pasen de manera más suave por todo el sistema digestivo.",
+        "Al ser una fuente de alto contenido de carotenoides, luteína y zeaxantina, son compuestos que cumplen la función de mantener la salud ocular y prevenir el desarrollo de cataratas y todo tipo de enfermedades relacionadas.",
+        "Además, al contener altas cantidades de antioxidantes y aminoácidos, mismos que contribuyen a la reproducción correcta de las células y evitar el desarrollo del cáncer.",
+        "Al ser un producto del cual se puede obtener harina, es un ingrediente ideal para reemplazar la harina de trigo, puesto que la del maíz es libre de gluten y es apta para el consumo de los celiacos."
+      ],
+      "derivados": [
+        "Harina",
+        "Almidón",
+        "Afrecho",
+        "Producto neto",
+        "Aceite",
+        "Snacks",
+        "Cereales",
+        "Jarabe",
+        "Caramelos",
+        "Maíz negro",
+        "Maíz amarillo",
+        "Maíz blanco",
+        "Maíz pequeño"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi"
+      ],
+      "preparaciones": [
+        "Sango",
+        "Arepas",
+        "Tamales",
+        "Humitas",
+        "Cremas",
+        "Palomitas de maíz",
+        "Pastas",
+        "Pan",
+        "Galletas",
+        "Pasteles",
+        "Ensaladas",
+        "Sopas",
+        "Coladas",
+        "Bebidas alcohólicas",
+        "Cocteles",
+        "Tortillas mexicanas",
+        "Chichas",
+        "Tostado",
+        "Jarabes de maíz",
+        "Tortillas de maíz",
+        "Purés"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Cocina fría",
+        "Panadería",
+        "Repostería",
+        "Ensaladas",
+        "Cocina clásica",
+        "Cocina regional",
+        "Bebidas alcohólicas y no alcohólicas"
+      ],
+      "combinacion": [
+        { "tipo": "Aceites y grasas", "valor": 0.3 },
+        { "tipo": "Bebidas Alcohólicas", "valor": 8.2 },
+        { "tipo": "Carnes", "valor": 9.5 },
+        { "tipo": "Cereales", "valor": 6.2 },
+        { "tipo": "Frutas", "valor": 17.5 },
+        { "tipo": "Frutos secos y semillas", "valor": 6.4 },
+        { "tipo": "Hierbas y especias", "valor": 6.4 },
+        { "tipo": "Huevos y lácteos", "valor": 15.8 },
+        { "tipo": "Bebidas calientes", "valor": 6.5 },
+        { "tipo": "Legumbres", "valor": 5.7 },
+        { "tipo": "Pescados y mariscos", "valor": 9.5 },
+        { "tipo": "Verduras y hortalizas", "valor": 7.8 }
+      ]
+    }, 
+
+    {
+      "idR": 9,
+      "img": "https://s3.abcstatics.com/media/bienestar/2020/07/09/leche-fucha-khMC--620x349@abc.jpg",
+      "name": "Leche",
+      "kcal": "46 kcal",
+      "group": "Lácteos",
+      "cientf": "N/A",
+      "lipi": "N/A",
+      "glu": "2 gr",
+      "prot": "1,6 gr",
+      "beneficios": [
+        "La leche es una fuente saludable de vitaminas y minerales, las cuales, con su consumo moderado, disminuyen los riesgos de padecer osteoporosis y cáncer.",
+        "Durante el embarazo, el consumo de leche beneficia tanto a la madre como al bebé, puesto que contribuye al correcto desarrollo de los huesos del neonato y a la fácil absorción del calcio.",
+        "Además, la leche, dentro de una dieta, ayuda al sistema digestivo y a la flora intestinal, lo que contribuye a prevenir los trastornos alimenticios y las alteraciones en el metabolismo.",
+        "Al contener grasas en su estructura y consumirse moderadamente, ayuda a mantener la salud de la piel.",
+        "A pesar de lo que digan algunas personas, un vaso de leche después de un día largo ayuda a relajar los músculos, calma los nervios y reduce los niveles de estrés acumulados.",
+        "Por su alto contenido de potasio, ayuda a la dilatación de los vasos sanguíneos, lo que contribuye a mantener la presión arterial en niveles saludables."
+      ],
+      "derivados": [
+        "Quesos",
+        "Yogures",
+        "Cremas",
+        "Leche en polvo",
+        "Salsas",
+        "Nata",
+        "Mantequilla",
+        "Suero",
+        "Helados",
+        "Leche condensada",
+        "Cuajada"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi",
+        "Tiendas de tu barrio."
+      ],
+      "preparaciones": [
+        "Mouses",
+        "Gelatinas",
+        "Pasteles",
+        "Galletas",
+        "Chocolates",
+        "Bebidas calientes",
+        "Bebidas frías",
+        "Batidos",
+        "Sopas",
+        "Quesos",
+        "Mantequilla",
+        "Crema de leche",
+        "Dulce de leche",
+        "Crema pastelera",
+        "Arroz con leche",
+        "Leche frita",
+        "Salsa bechamel",
+        "Lactonesa",
+        "Lasañas",
+        "Tartas",
+        "Hot cakes",
+        "Panqueques",
+        "Pudines",
+        "Flanes",
+        "Helados"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Cocina fría",
+        "Panadería",
+        "Repostería",
+        "Ensaladas",
+        "Cocina clásica",
+        "Cocina regional",
+        "Bebidas alcohólicas y no alcohólicas"
+      ],
+      "combinacion": [
+        { "tipo": "Aliños y salsas", "valor": 0.6 },
+        { "tipo": "Bebidas alcohólicas", "valor": 8 },
+        { "tipo": "Carnes", "valor": 8.1 },
+        { "tipo": "Cereales", "valor": 4.4 },
+        { "tipo": "Frutas", "valor": 17.8 },
+        { "tipo": "Frutos secos y semillas", "valor": 4.6 },
+        { "tipo": "Hierbas y especias", "valor": 5.9 },
+        { "tipo": "Huevos y lácteos", "valor": 23.4 },
+        { "tipo": "Bebidas calientes", "valor": 7.2 },
+        { "tipo": "Legumbres", "valor": 2.1 },
+        { "tipo": "Pescados y mariscos", "valor": 9.4 },
+        { "tipo": "Verduras y hortalizas", "valor": 8.4 }
+      ]
+    },
+
+    {
+      "idR": 10,
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/1200px-Oranges_-_whole-halved-segment.jpg",
+      "name": "Naranja",
+      "kcal": "47 kcal",
+      "group": "Frutas",
+      "cientf": "Citrus X sinensis",
+      "lipi": "0.9 gr",
+      "glu": "0.1 gr",
+      "prot": "0.9 gr",
+      "beneficios": [
+        "Es un buen acompañante alimenticio para personas con diabetes debido a su bajo contenido glucémico.",
+        "Por su alto contenido de vitamina C, ayuda al desarrollo de un sistema inmunológico más fuerte.",
+        "Al aportar antioxidantes, ayuda a prevenir el deterioro de la piel y el desarrollo de enfermedades relacionadas.",
+        "Es una de las frutas más recomendadas en dietas debido a su bajo contenido calórico.",
+        "Ayuda en la absorción de calcio, lo que contribuye a reducir el desgaste de los huesos y dientes y prevenir el desarrollo de la artritis.",
+        "Su consumo moderado ayuda a prevenir la mala regeneración celular, lo que puede contribuir a evitar el desarrollo del cáncer."
+      ],
+      "derivados": [
+        "Fruta deshidratada",
+        "Extracto de la cáscara",
+        "Harina de la cáscara",
+        "Fruta confitada",
+        "Zumo",
+        "Mermeladas",
+        "Cáscara confitada",
+        "Licores"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi",
+        "Tiendas de tu barrio"
+      ],
+      "preparaciones": [
+        "Bizcocho de naranja",
+        "Lenguado a la naranja",
+        "Salmón a la naranja",
+        "Mousse de naranja",
+        "Pato a la naranja",
+        "Galletas de naranja",
+        "Pollo chino a la naranja",
+        "Pay de naranja",
+        "Chocolate con cáscara de naranja",
+        "Donas de naranja",
+        "Buñuelos con naranja",
+        "Pan de naranja",
+        "Helado de naranja",
+        "Granizado de naranja",
+        "Cupcakes de naranja",
+        "Ensalada de frutas",
+        "Té de naranja",
+        "Zumo de naranja",
+        "Bebidas con alcohol con naranja",
+        "Mermelada de naranja",
+        "Flan de naranja"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Cocina fría",
+        "Panadería",
+        "Repostería",
+        "Ensaladas",
+        "Cocina clásica",
+        "Cocina regional",
+        "Bebidas alcohólicas y no alcohólicas"
+      ],
+      "combinacion": [
+        { "tipo": "Aceites y grasas", "valor": 0.4 },
+        { "tipo": "Aliños y salsas", "valor": 0.4 },
+        { "tipo": "Bebidas alcohólicas", "valor": 11.4 },
+        { "tipo": "Carnes", "valor": 9.2 },
+        { "tipo": "Cereales", "valor": 3.3 },
+        { "tipo": "Frutas", "valor": 26.8 },
+        { "tipo": "Frutos secos y semillas", "valor": 7.1 },
+        { "tipo": "Hierbas y especias", "valor": 6.5 },
+        { "tipo": "Huevos y lácteos", "valor": 12.1 },
+        { "tipo": "Bebidas calientes", "valor": 3.7 },
+        { "tipo": "Legumbres", "valor": 2.6 },
+        { "tipo": "Pescados y mariscos", "valor": 6.8 },
+        { "tipo": "Verduras y hortalizas", "valor": 9.7 }
+      ]
+    },
+
+    {
+      "idR": 11,
+      "img": "https://elpoderdelconsumidor.org/wp-content/uploads/2019/12/cania.jpg",
+      "name": "Caña",
+      "kcal": "15 kcal",
+      "group": "N/A",
+      "cientf": "Saccharum officinarum",
+      "lipi": "5 gr",
+      "glu": "1.4 gr",
+      "prot": "2.42 gr",
+      "beneficios": [
+        "Es una fuente saludable de energía.",
+        "Por su contenido de azúcar natural, ayuda a la generación de endorfinas, lo que evita el desarrollo de problemas de autoestima y produce la sensación de felicidad.",
+        "Ayuda a prevenir resfriados y fortalece el sistema inmunológico.",
+        "Por su alto contenido de fibra, ayuda a activar el sistema digestivo.",
+        "En cantidades moderadas, ayuda a evitar problemas cardiovasculares a largo plazo.",
+        "En su consumo natural, es saludable ya que contiene bajas cantidades de calorías y ayuda a personas que están en dieta a recuperar su energía.",
+        "Al contener grandes cantidades de calcio, hierro, potasio y magnesio, previene el desgaste de las articulaciones, huesos y dientes."
+      ],
+      "derivados": [
+        "Azúcar",
+        "Jugos",
+        "Bebidas alcohólicas",
+        "Panela",
+        "Miel",
+        "Vinagre",
+        "Melaza"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi"
+      ],
+      "preparaciones": [
+        "Postres endulzados con azúcar de caña",
+        "Bebidas alcohólicas",
+        "Chichas",
+        "Miel",
+        "Panela",
+        "Melcochas",
+        "Gomitas del zumo de caña",
+        "Langostinos macerados en jugo de caña",
+        "Ponche de frutas",
+        "Camarones rellenos con caña",
+        "Buñuelos con miel de caña",
+        "Helados",
+        "Granizados",
+        "Pay de zumo de caña",
+        "Guarapo"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Cocina fría",
+        "Panadería",
+        "Repostería",
+        "Cocina clásica",
+        "Cocina regional",
+        "Bebidas alcohólicas y no alcohólicas"
+      ],
+      "combinacion": [
+        { "tipo": "Aceites y grasas", "valor": 0.4 },
+        { "tipo": "Aliños y salsas", "valor": 0.4 },
+        { "tipo": "Bebidas alcohólicas", "valor": 11.4 },
+        { "tipo": "Carnes", "valor": 9.2 },
+        { "tipo": "Cereales", "valor": 3.3 },
+        { "tipo": "Frutas", "valor": 26.8 },
+        { "tipo": "Frutos secos y semillas", "valor": 7.1 },
+        { "tipo": "Hierbas y especias", "valor": 6.5 },
+        { "tipo": "Huevos y lácteos", "valor": 12.1 },
+        { "tipo": "Bebidas calientes", "valor": 3.7 },
+        { "tipo": "Legumbres", "valor": 2.6 },
+        { "tipo": "Pescados y mariscos", "valor": 6.8 },
+        { "tipo": "Verduras y hortalizas", "valor": 9.7 }
+      ]
+    },
+
+    {
+      "idR": 12,
+      "img": "https://www.naturalcastello.com/wp-content/uploads/2019/08/propiedades-arroz-750x448.jpg",
+      "name": "Arroz",
+      "kcal": "130 kcal",
+      "group": "Cereal",
+      "cientf": "Oryza Sativa",
+      "lipi": "0.4 gr",
+      "glu": "5 gr",
+      "prot": "2.7 gr",
+      "beneficios": [
+        "Por su alto contenido de almidón, ayuda a prevenir problemas relacionados con la flora intestinal.",
+        "Al ser un alimento blando, es muy recomendado para personas con problemas estomacales o en recuperación de alguna enfermedad u operación.",
+        "Al contener bajos niveles de sodio, es muy recomendado para personas hipertensas o con problemas cardiovasculares.",
+        "Además, es uno de los alimentos preferidos para personas con colesterol alto.",
+        "Al contener fósforo y calcio, ayuda a prevenir el desgaste excesivo de los huesos y los dientes.",
+        "Al estar compuesto de vitamina A y C, ayuda a evitar el envejecimiento prematuro."
+      ],
+      "derivados": [
+        "Diversos tipos de arroz",
+        "Harina",
+        "Lácteos",
+        "Vinagre",
+        "Bebidas alcohólicas",
+        "Cereales"
+      ],
+      "localizacion": [
+        "Loja.",
+        "Mercados:",
+        "⦁ Mayorista",
+        "⦁ Tebaida",
+        "⦁ Central",
+        "⦁ Las pitas",
+        "⦁ San Sebastián",
+        "Supermercados:",
+        "⦁ TIA",
+        "⦁ Gran AKI",
+        "⦁ Zerimar",
+        "⦁ Supermaxi"
+      ],
+      "preparaciones": [
+        "Sushi",
+        "Risotto",
+        "Encocado de arroz",
+        "Arroz con calamar",
+        "Arroz árabe",
+        "Soju",
+        "Galletas de arroz",
+        "Arroz inflado",
+        "Bolas de arroz rellenas",
+        "Bolitas de arroz rellenas con queso",
+        "Pastel de arroz y carne",
+        "Paella",
+        "Arroz marinero",
+        "Pasta de arroz",
+        "Pollo al curry con arroz thai",
+        "Croquetas de arroz con leche",
+        "Croquetas de arroz rellenas de mariscos",
+        "Arroz relleno",
+        "Arroz caldoso de mariscos",
+        "Ensalada de arroz"
+      ],
+      "clasificacion": [
+        "Cocina caliente",
+        "Cocina fría",
+        "Panadería",
+        "Repostería",
+        "Ensaladas",
+        "Cocina clásica",
+        "Cocina regional",
+        "Bebidas alcohólicas"
+      ],
+      "combinacion": [
+        { "tipo": "Aceites y grasas", "valor": 0.4 },
+        { "tipo": "Aliños y salsas", "valor": 0.5 },
+        { "tipo": "Bebidas alcohólicas", "valor": 5.4 },
+        { "tipo": "Carnes", "valor": 15.8 },
+        { "tipo": "Cereales", "valor": 4.8 },
+        { "tipo": "Frutas", "valor": 14.9 },
+        { "tipo": "Frutos secos y semillas", "valor": 6.0 },
+        { "tipo": "Hierbas y especias", "valor": 6.4 },
+        { "tipo": "Huevos y lácteos", "valor": 19.0 },
+        { "tipo": "Bebidas calientes", "valor": 6.3 },
+        { "tipo": "Legumbres", "valor": 3.4 },
+        { "tipo": "Pescados y mariscos", "valor": 6.4 },
+        { "tipo": "Verduras y hortalizas", "valor": 10.6 }
+      ]
+    },
+    {
+      "idR": 13,
+      "img": "https://empresasiansa.cl/wp-content/uploads/2020/02/azucar.jpg",
+      "name": "Azúcar",
+      "ingredientes": [
+        "Azúcar"
+      ],
+      "instrucciones": "1. Prepara los ingredientes adicionales según la receta.\n2. Agrega azúcar al gusto según las indicaciones de la receta.\n3. Sigue los pasos de la receta para completar la preparación.\n4. Disfruta de tu deliciosa creación.",
+      "tiempoPreparacion": "Varía según la receta",
+      "porciones": "Varía según la receta",
+      "calorias": "Varía según la receta",
+      "categoria": "Varía según la receta"
+    }
+    
+  ]
+}

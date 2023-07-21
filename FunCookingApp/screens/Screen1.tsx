@@ -7,6 +7,8 @@ import { NunitoSans_600SemiBold } from '@expo-google-fonts/nunito-sans';
 import { Comfortaa_400Regular } from '@expo-google-fonts/comfortaa';
 import { Montserrat_400Regular, Montserrat_500Medium } from '@expo-google-fonts/montserrat';
 import { useNavigation, DrawerActions } from '@react-navigation/native';
+import { AiOutlineMenu } from 'react-icons/ai';
+
 
 const Screen1 = (props: any) => {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -46,18 +48,17 @@ const Screen1 = (props: any) => {
       onLayout={onLayoutRootView}>
       <StatusBar style="dark" backgroundColor='white' />
       <View style={styles.header}>
-        <Text style={styles.txtpeque}>FUNCOOKING</Text>
-        <Image style={styles.burger} source={require('../assets/images/burger1.png')} />
-        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")}
-          style={styles.burger}>
+        <div style={{display: 'flex', justifyContent:'center'}}>
+            <Text style={styles.nombreApp}>FUNCOOKING</Text>  
+        </div>
+        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")} style={styles.iconoMenu}>
+          <Text style={styles.iconoMenu}><AiOutlineMenu/></Text>
         </TouchableOpacity>
         <Text style={styles.title}>¿Deseas preparar algo?</Text>
         <Text style={styles.subtitle}>Vamos a jugar</Text>
         <Text style={styles.text}>Combina tus cartas que son ingredientes para descubrir recetas de comidas y bebidas. Puedes escoger cualquier carta, pero ten cuidado con lo que podrías mezclar.</Text>
       </View>
-      <TouchableOpacity onPress={() => props.navigation.navigate("Screen2")}
-        style={styles.buttonFav}>
-        <Text style={styles.textButtonFav}>Favoritas</Text></TouchableOpacity>
+
       <TouchableOpacity onPress={() => props.navigation.navigate("Screen3")}
         style={styles.buttonCol}>
         <Text style={styles.textButtonCol}>Colección</Text></TouchableOpacity>
@@ -91,7 +92,7 @@ const styles = StyleSheet.create({
   header: {
     left: 0,
     top: 0,
-    width: 360,
+    width: '100%',
     height: 369,
     justifyContent: 'flex-start',
     backgroundColor: '#FFFFFF',
@@ -110,6 +111,22 @@ const styles = StyleSheet.create({
     lineHeight: 12.19,
     color: '#003049'
   },
+  nombreApp: {
+    position: 'absolute',
+    top: '5%',
+    fontSize: 22,
+    lineHeight: 24,
+    color: '#003049',
+    fontWeight:'bold',
+    },
+    iconoMenu: {
+      color: '#003049',
+      position: 'absolute',
+      marginTop: '3%',
+      fontSize: 30,
+      right: '5%',
+      fontWeight: 'bold',
+    },
   burger: {
     position: 'absolute',
     width: 24,
@@ -148,7 +165,7 @@ const styles = StyleSheet.create({
   },
   fondo: {
     height: 509,
-    width: 375,
+    width: '100%',
     left: 0,
     top: 303,
     backgroundColor: '#FDA55C',
@@ -183,7 +200,7 @@ const styles = StyleSheet.create({
     width: 98,
     height: 24,
     top: 326,
-    left: 115,
+    left: 70,
     justifyContent: 'center',
   },
   textButtonCol: {
@@ -196,7 +213,7 @@ const styles = StyleSheet.create({
     width: 98,
     height: 24,
     top: 300,
-    right: 115,
+    right: 70,
     justifyContent: 'center',
   },
   textButtonCom: {
@@ -224,9 +241,9 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: 98,
     height: 3,
-    left: '5%',
+    left: '19%',
     right: '12.27%',
-    top: '53.67%',
+    top: '52%',
     bottom: '58.55%',
   }
 });

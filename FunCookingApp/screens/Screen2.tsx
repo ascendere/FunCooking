@@ -6,6 +6,8 @@ import { StatusBar } from 'expo-status-bar';
 import { NunitoSans_600SemiBold } from '@expo-google-fonts/nunito-sans';
 import { Comfortaa_400Regular } from '@expo-google-fonts/comfortaa';
 import { Montserrat_400Regular, Montserrat_500Medium } from '@expo-google-fonts/montserrat';
+import { AiOutlineMenu } from 'react-icons/ai';
+
 
 const Screen2 = (props: any) => {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -44,11 +46,11 @@ const Screen2 = (props: any) => {
       onLayout={onLayoutRootView}>
       <StatusBar style="dark" backgroundColor='white' />
       <View style={styles.header}>
-        <Text style={styles.txtpeque}>FUNCOOKING</Text>
-        <Image style={styles.burger}
-          source={require('../assets/images/burger1.png')} />
-        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")}
-          style={styles.burger}>
+        <div style={{display: 'flex', justifyContent:'center'}}>
+            <Text style={styles.nombreApp}>FUNCOOKING</Text>  
+        </div>
+        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")} style={styles.iconoMenu}>
+          <Text style={styles.iconoMenu}><AiOutlineMenu/></Text>
         </TouchableOpacity>
         <Text style={styles.title}>Mira tus cartas favoritas</Text>
         <Text style={styles.subtitle}>Visualiza y guarda tus cartas</Text>
@@ -71,7 +73,7 @@ const Screen2 = (props: any) => {
         fadeDuration={1000}
         style={styles.img}
         source={require('../assets/images/card2.png')} />
-      <TouchableOpacity onPress={() => handleHelpPress()}
+      <TouchableOpacity onPress={() => props.navigation.navigate("Favoritos")}
         style={styles.button}>
         <Text style={styles.textButton}>VER FAVORITAS</Text></TouchableOpacity>
     </View>
@@ -90,7 +92,7 @@ const styles = StyleSheet.create({
   header: {
     left: 0,
     top: 0,
-    width: 360,
+    width: '100%',
     height: 369,
     justifyContent: 'flex-start',
     backgroundColor: '#FFFFFF',
@@ -109,6 +111,14 @@ const styles = StyleSheet.create({
     lineHeight: 12.19,
     color: '#003049'
   },
+  iconoMenu: {
+    color: '#003049',
+    position: 'absolute',
+    marginTop: '3%',
+    fontSize: 30,
+    right: '5%',
+    fontWeight: 'bold',
+  },
   burger: {
     position: 'absolute',
     width: 24,
@@ -116,6 +126,14 @@ const styles = StyleSheet.create({
     left: 310,
     top: 56,
   },
+  nombreApp: {
+    position: 'absolute',
+    top: '5%',
+    fontSize: 22,
+    lineHeight: 24,
+    color: '#003049',
+    fontWeight:'bold',
+    },
   title: {
     fontSize: 24,
     fontFamily: 'Comfortaa_400Regular',

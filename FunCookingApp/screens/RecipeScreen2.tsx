@@ -24,10 +24,13 @@ import { AiOutlineHeart } from "react-icons/ai";
 //import { products } from "../data/data2.json";
 import { db } from "../database/Config";
 import { collection, doc, getDoc, getDocs } from "firebase/firestore";
+import { useNavigation } from "@react-navigation/native";
 
-const RecipeScreen = (props: any) => {
+
+const RecipeScreen2 = (props: any) => {
   const [appIsReady, setAppIsReady] = useState(false);
   const detail = props.route.params;
+  const navigation = useNavigation();
   const [isPressed, setIsPressed] = useState(false);
   const [mostrarProcedimiento, setMostrarProcedimiento] = useState(true);
 
@@ -141,7 +144,7 @@ const RecipeScreen = (props: any) => {
 
     return { name: item, image: null };
   });
-  
+
   ///////////////////////////////////////////////////
   return (
     <View
@@ -161,7 +164,7 @@ const RecipeScreen = (props: any) => {
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => props.navigation.navigate("Colection")}
+          onPress={() => navigation.goBack()}
           style={styles.iconoMenu2}
         >
           <Text style={styles.iconoMenu2}>
@@ -269,7 +272,7 @@ const RecipeScreen = (props: any) => {
   );
 };
 
-export default RecipeScreen;
+export default RecipeScreen2;
 
 const styles = StyleSheet.create({
   container: {

@@ -24,10 +24,12 @@ import { AiOutlineHeart } from "react-icons/ai";
 import { color } from "react-native-reanimated";
 import { db } from "../database/Config";
 import { collection, doc, getDoc, getDocs } from "firebase/firestore";
+import { useNavigation } from "@react-navigation/native";
 
-const IngredientScreen = (props: any) => {
+const IngredientScreen2 = (props: any) => {
   const [appIsReady, setAppIsReady] = useState(false);
   const detail = props.route.params;
+  const navigation = useNavigation();
 
   const [isPressed, setIsPressed] = useState(false);
 
@@ -124,7 +126,6 @@ const IngredientScreen = (props: any) => {
   if (!appIsReady) {
     return null;
   }
-  
   return (
     <View
       style={{ flex: 1, backgroundColor: "white" }}
@@ -148,7 +149,7 @@ const IngredientScreen = (props: any) => {
           </Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() => props.navigation.navigate("Colection")}
+          onPress={() => navigation.goBack()}
           style={styles.iconoMenu2}
         >
           <Text style={styles.iconoMenu2}>
@@ -354,7 +355,7 @@ function handleHelpPress() {
   return <View></View>;
 }
 
-export default IngredientScreen;
+export default IngredientScreen2;
 
 const styles = StyleSheet.create({
   container: {

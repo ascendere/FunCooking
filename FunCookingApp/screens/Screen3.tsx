@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { NunitoSans_600SemiBold } from '@expo-google-fonts/nunito-sans';
 import { Comfortaa_400Regular } from '@expo-google-fonts/comfortaa';
 import { Montserrat_400Regular, Montserrat_500Medium } from '@expo-google-fonts/montserrat';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const Screen3 = (props: any) => {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -44,19 +45,16 @@ const Screen3 = (props: any) => {
       onLayout={onLayoutRootView}>
       <StatusBar style="dark" backgroundColor='white' />
       <View style={styles.header}>
-        <Text style={styles.txtpeque}>FUNCOOKING</Text>
-        <Image style={styles.burger}
-          source={require('../assets/images/burger1.png')} />
-        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")}
-          style={styles.burger}>
+        <div style={{display: 'flex', justifyContent:'center'}}>
+            <Text style={styles.nombreApp}>FUNCOOKING</Text>  
+        </div>
+        <TouchableOpacity onPress={() => props.navigation.navigate("Hamburguesa")} style={styles.iconoMenu}>
+          <Text style={styles.iconoMenu}><AiOutlineMenu/></Text>
         </TouchableOpacity>
         <Text style={styles.title}>Veamos tus cartas</Text>
         <Text style={styles.subtitle}>Recetas e ingredientes</Text>
         <Text style={styles.text}>Aquí encontrarás todas tus cartas con las que puedes hacer juego. Además de visualizar las recetas que has descubierto.</Text>
       </View>
-      <TouchableOpacity onPress={() => props.navigation.navigate("Screen2")}
-        style={styles.buttonFav}>
-        <Text style={styles.textButtonFav}>Favoritas</Text></TouchableOpacity>
       <TouchableOpacity onPress={() => handleHelpPress()}
         style={styles.buttonCol}>
         <Text style={styles.textButtonCol}>Colección</Text></TouchableOpacity>
@@ -90,7 +88,7 @@ const styles = StyleSheet.create({
   header: {
     left: 0,
     top: 0,
-    width: 360,
+    width: '100%',
     height: 369,
     justifyContent: 'flex-start',
     backgroundColor: '#FFFFFF',
@@ -98,6 +96,14 @@ const styles = StyleSheet.create({
     borderBottomRightRadius: 30,
     position: 'absolute',
   },
+  nombreApp: {
+    position: 'absolute',
+    top: '5%',
+    fontSize: 22,
+    lineHeight: 24,
+    color: '#003049',
+    fontWeight:'bold',
+    },
   txtpeque: {
     position: 'absolute',
     width: 80,
@@ -108,6 +114,14 @@ const styles = StyleSheet.create({
     fontFamily: 'Montserrat_400Regular',
     lineHeight: 12.19,
     color: '#003049'
+  },
+  iconoMenu: {
+    color: '#003049',
+    position: 'absolute',
+    marginTop: '3%',
+    fontSize: 30,
+    right: '5%',
+    fontWeight: 'bold',
   },
   burger: {
     position: 'absolute',
@@ -182,7 +196,7 @@ const styles = StyleSheet.create({
     width: 98,
     height: 24,
     top: 326,
-    left: 115,
+    left: 70,
     justifyContent: 'center',
   },
   textButtonCol: {
@@ -195,7 +209,7 @@ const styles = StyleSheet.create({
     width: 98,
     height: 24,
     top: 300,
-    right: 115,
+    right: 70,
     justifyContent: 'center',
   },
   textButtonCom: {
@@ -223,9 +237,9 @@ const styles = StyleSheet.create({
     position: 'absolute',
     width: 96,
     height: 3,
-    left: '69%',
+    left: '56%',
     right: '0%',
-    top: '53.67%',
+    top: '52%',
     bottom: '58.55%',
   }
 });
